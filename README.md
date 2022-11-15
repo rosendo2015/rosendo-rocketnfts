@@ -58,4 +58,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença MIT.
 
-Feito com ❤️ por Francisco Rosndo 👋🏽 [Entre em contato!](https://www.linkedin.com/in/francisco-rosendo-a05623241/)
+Feito com ❤️ por Francisco Rosendo 👋🏽 [Entre em contato!](https://www.linkedin.com/in/francisco-rosendo-a05623241/)
