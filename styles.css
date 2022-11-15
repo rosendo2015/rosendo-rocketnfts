@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #000;
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+header {
+    margin: 0 auto;
+    padding: 57px 82px;
+    width: 80vw;
+}
+
+main {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+header nav ul li{
+    color:#fff;
+}
+header nav ul li:hover{
+    scale: 1.1;
+    font-weight: 500;
+    text-shadow: 0px 0px 7px #fff;
+}
+
+header nav .carteira {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 22px 10px 14px;
+    background-color: #fff;
+    color: #000;
+    transition: 0.9s;
+
+}
+.rocketseat img{
+    width: 100%;
+
+transition: 7s;
+}
+.rocketseat img:hover{
+    rotate: 360deg;
+
+}
+
+.title {
+    padding: 82px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.title .sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.title .sub #quantidade {
+    font-weight: 700;
+}
+
+.title .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.artistas {
+    display: flex;
+    gap: 6px;
+    align-items: flex-end;
+}
+
+.title .col p {
+    width: 401px;
+    height: 88px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 50px;
+
+}
+
+.title h1 {
+
+    width: 599px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.galeria {
+
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.galeria img {
+    border: 1px solid #fff;
+    margin-left: 16px;
+    margin-bottom: 60px;
+    transition: .7s;
+}
+.galeria img:hover{
+ scale: 1.5;
+    rotate: 10deg;
+}
+
+.estatistics {
+    margin-left: -12%;
+    margin-top: -58px;
+    background-color: #0E0E0E;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: "N T T"
+        "N M M";
+}
+
+.estatistics .numeros {
+    grid-area: N;
+    border-right: 1px solid hsla(0, 2%, 35%, 1);
+    border-bottom: 1px solid hsla(0, 2%, 35%, 1);
+    text-align: center;
+}
+.estatistics .numeros p.number:hover{
+    scale: 1.2;
+}
+
+.estatistics .textos {
+    grid-area: T;
+}
+
+.estatistics .modelo {
+    grid-area: M;
+}
+
+.estatistics .numeros p.number {
+    margin-top: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.estatistics .numeros p.descricao {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #5A5757;
+}
+
+.estatistics .textos {
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    gap: 126px;
+
+}
+
+.estatistics .textos .block-text p {
+    width: 435px;
+    margin-bottom: 63px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.estatistics .textos .block-text a.destaque {
+
+    color: #FF5B50;
+}
+
+.destaque {
+    color: #FF5B50;
+}
+
+.estatistics .textos .block-text a {
+    color: #FFF;
+}
+
+
+.populares {
+    background-color: #0E0E0E;
+    display: flex;
+    flex-direction: column;
+    padding: 87px;
+}
+
+.populares .titulo {
+    margin-bottom: 158px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+
+.populares .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.populares .wrapper .col-right .item .item-titulo {
+    
+    display: flex;
+    text-align: right;
+    gap: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.populares .wrapper .col-left .item .item-titulo {
+    
+    text-align: left;
+    display: flex;
+    gap: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.item p {
+    display: flex;
+    justify-content: space-between;
+    margin: 34px auto;
+    
+}
+
+.item img {
+    width: 450px;
+    margin-bottom: 50px;
+    transition: 0.7s;
+}
+.item img:hover {
+    
+scale: 1.1;
+}
+
+.item .ceta {
+    width: 30px;
+    
+}
+
+.ceta {
+    width: 22px;
+
+}
+
+.wrapper {
+    position: relative;
+    
+}
+
+.col-left::before {
+    display: block;
+    content: "";
+    background-color: #5A5757;
+    width: 1px;
+    height: 968px;
+    position: absolute;
+    left: 50%;
+}
+
+.cards {
+    background-color: #0E0E0E;
+    display: flex;
+    flex-direction: column;
+    padding: 87px;
+}
+
+.cards .titulo-artistas {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 120px;
+}
+
+.wrapper-card p {
+    margin-bottom: 10px;
+}
+
+.wrapper-card span{
+    color: #FF5B50; 
+    transition: 1s;
+    border-radius: 9999px;
+    padding: 5px 7px 5px 3px; 
+}
+
+.wrapper-card {
+    padding: 25px 36px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #252525;
+    transition: 1s;
+}
+
+.wrapper-card:hover,
+.wrapper-card:hover span{
+    background-color: #FF5B50;
+    color: #fff;    
+}
+
+.card-itens {
+    margin: 0 auto;
+    width: 1287px;
+    display: flex;
+    gap: 111px;
+    flex-wrap: wrap;
+
+}
+
+.link-artistas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    margin: 54px 147px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    transition: 0.4s;
+    
+    
+}
+
+.link-artistas:hover {
+    scale: 1.1;
+}
+
+footer {
+    margin: 0 auto;
+    width: 80vw;
+    background-color: hsl(0, 3%, 13%);
+    display: grid;
+    grid-template-areas: "A A A A"
+        "B C C C"
+        "D D D D";
+}
+
+.footer-top {
+    grid-area: A;
+}
+
+.contato {
+    grid-area: B;
+}
+
+.listas {
+    grid-area: C;
+}
+
+.footer-bottom {
+    border: 1px solid hsla(0, 2%, 35%, 1);
+    grid-area: D;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.footer-top {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid hsla(0, 2%, 35%, 1);
+}
+
+#top-ceta {
+    background-color: #FF5B50;
+    padding: 30px;
+}
+
+.contato form {
+    border-right: 1px solid hsla(0, 2%, 35%, 1);
+    padding: 80px;
+}
+
+.contato h2 {
+    width: 350px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 25px;
+
+}
+
+.wrapper-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 402px;
+}
+
+form input {
+    padding: 20px 25px 20px;
+    height: 66px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+    background-color: hsla(0, 0%, 5%, 1);
+    border: 0;
+}
+
+.contato button {
+    height: 66px;
+    padding: 22px 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    border: 0;
+    color: #000000;
+    transition: 0.9s;
+}
+.carteira:hover,
+.contato button:hover{
+color: #fff;
+background-color: #FF5B50;
+border: 0;
+}
+
+.listas {
+    padding: 74px 122px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #5A5757;
+    display: flex;
+    gap: 150px;
+}
+
+.listas ul li {
+    margin-bottom: 15px;
+}
+.listas ul li:hover {
+scale: 1.05;
+font-weight: 700;
+color: #fff;
+}
+
+.listas .cabecalho {
+    margin-bottom: 7px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 69px 88px 61px 84px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+}
+
+.social-redes {
+    display: flex;
+    gap: 50px;
+}
+
+.social-redes img {
+    transition: 0.7s;
+}
+
+.social-redes img:hover {
+    scale: 1.3;
+    rotate: -360deg;
+}
