@@ -17,7 +17,7 @@
 ## 💻 Sobre o projeto
 <img src="./assets/favicon.ico" width="25px"/>
 
-Este projeto foi desenvolvido apartir de um desafio proposto pela Rocketseat, com o intuito de treinar e fixar as abilidades ensinadas nas aulas dos Niveis 01, 02 e 03.
+Este projeto foi desenvolvido a partir de um desafio proposto pela Rocketseat, com o intuito de treinar e fixar as habilidades ensinadas nas aulas dos Niveis 01, 02 e 03.
 
 Uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível para os alunos durante um ano.
 
